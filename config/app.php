@@ -121,8 +121,8 @@ return [
 
     'key' => env('APP_KEY'),
 
-    // 'cipher' => 'AES-256-CBC',
-    'cipher' => 'AES-128-CBC',
+    'cipher' => 'AES-256-CBC',
+    
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
