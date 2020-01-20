@@ -11,9 +11,9 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/cadastro/profissionais', 'ProviderController@show')->name('provider.show');
 Route::get('cadastro/profissionais/editar/{provider}', 'ProviderController@showEdit')->name('provider.showEdit');
